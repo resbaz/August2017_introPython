@@ -5,7 +5,7 @@ This is guide for those trying to install Python for the first time, or who alre
 The options are:
 - Installing through Anaconda - for those people who aren't concerned about space/memory requirements on their computers. Installs base Python along with a number of useful packages.
 - Miniconda - installs base Python, and allows the user to control which packages to install. Good for people with limited space.
-- Package specific - for those who use pip to install Python
+- Package specific - for those who already have Python installed via pip
 
 ## Installing Python with Anaconda
 
