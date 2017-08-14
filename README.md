@@ -1,5 +1,8 @@
 # Introduction to Python, August Edition
 
+This Python Beginner's workshop wil be running from 10am - 4.30pm on Tuesday 22nd and Friday 25th August, at the CoLab training space, also known as Room 329, Level 3, Eastern Resource Centre, Building 171. Enter at the glass doors next to the Resource cafe, head to the back of the lobby (keep the ERC library entrance on your left) and enter at back right.
+
+This workshop is designed for those trying to explore and learn about the wonders of Python for the very first time. The content is suitable for a range of learners - from those who have never programmed before, to those who are already proficient in other coding languages. 
 
 This workshop will be using Python 3.6 inside the Jupyter Notebook. You can find installation instructions inside the 
 [Python_Installation.md](https://github.com/resbaz/August2017_introPython/blob/master/Python_Installation.md)
@@ -16,3 +19,36 @@ IDEs:
 Text Editors:
 - [Atom](https://atom.io/). Free. No ads. Allows Git/Github integration
 - [Sublime Text](https://www.sublimetext.com/). Unlimited free license. Occasional pop-up ads. 
+
+You will also find that the content for the workshop is available in both the markdown (\*.md) format, for online viewing, and as an iPython notebooks (\*.ipynb), which will contain useable code fragments, challenges and explanations for the workshop content. This content is mostly adapted from Dan Sandiford's [Python Gitbook](https://dansand.gitbooks.io/resguides-research-with-jupyter/content/), predominantly from the "Python Basics" section.
+
+---
+
+## Workshop Schedule
+
+The basic progression for the workshop should be as follows:
+
+### Monday
+
+|Time| Activity|
+|---:|---|
+|10am - 11.15am |Intro to Jupyter and Python|
+|11.15 am - 11.30am|Tea Break|
+|11.30am - 1pm|Lists and Dictionaries|
+|1pm - 2pm|Lunch|
+|2pm - 3.15pm|Conditionals and Loops|
+|3.15pm - 3.30pm|Tea Break|
+|3.30pm - 4.30pm|Loops continued|
+
+### Wednesday
+
+|Time| Activity|
+|---:|---|
+|10am - 10.30|Rehash & Homework Overview|
+|10.30-11.15|Functions|
+|11.15 am - 11.30am|Tea Break|
+|11.30am - 1pm|File I/O and String Manipulations|
+|1pm - 2pm|Lunch|
+|2pm - 3.15pm|Error Handling|
+|3.15pm - 3.30pm|Tea Break|
+|3.30pm - 5pm|Using Packages|
