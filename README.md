@@ -28,7 +28,7 @@ You will also find that the content for the workshop is available in both the ma
 
 The basic progression for the workshop should be as follows:
 
-### Monday
+### Tuesday 22nd August
 
 |Time| Activity|
 |---:|---|
@@ -40,7 +40,7 @@ The basic progression for the workshop should be as follows:
 |3.15pm - 3.30pm|Tea Break|
 |3.30pm - 4.30pm|Loops continued|
 
-### Wednesday
+### Friday 25th August
 
 |Time| Activity|
 |---:|---|
