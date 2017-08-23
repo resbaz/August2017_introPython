@@ -194,7 +194,7 @@ The math invovled in this is:
 
 
 
-### Mini Challenge 1
+#### Mini Challenge
 
 Write the function fahr_to_kelvin that successfully gives you the value 273.15 when we give it a temperature of 32.
 
@@ -234,7 +234,7 @@ A cool thing about making a function is that we can actually use a function insi
 
 If you think about it, we already are. If we were to make a function and use `list.reverse()` inside it, then we're using a *function inside your function*.
 
-### Mini challenge 2
+#### Mini challenge
 
 Write a function that takes a temperature in fahrenheit, and outputs a temperature in celsius.
 
@@ -259,7 +259,7 @@ kelvin_to_celsius(fahr_to_celsius(32))
 
 ```
 
-## Function Defaults
+### Function Defaults
 
 When you are defining your functions, you can actually set your parameters to have default values. 
 
@@ -308,12 +308,30 @@ variableName = input("This will display a message:")
 
 
 ```python
-variable = str(input("Please enter a number: "))
+variable = input("Please enter a number: ")
 ```
+
+    Please enter a number: 
+    
 
 
 ```python
 variable
+```
+
+HOWEVER! For those using Python 2.x, you should use the raw_input() function, NOT input().
+
+In Python 3, input() will automatically convert the user input into a string type. In Python 2, this function will actually evaluate what the user types in. This might not seem like an issue, but it can cause **massive** security holes in your program. Imagine if someone malicious typed in a command to exit python, and then had access to your local machine? Or a database beneath that?
+
+By converting the user input into a string, you are "sanitising" the user input. Python 2's raw_input, and Python 3's input() do this automatically.
+
+
+![image.png](attachment:image.png)
+*"Exploits of a Mom", XKCD*
+
+
+```python
+
 ```
 
 #### Mini Challenge
@@ -333,11 +351,11 @@ def HelloWorld(times,message = "Hello World!"):
 times = input("How many times would you like to display the message?: ")
 times = int(times)
 
-HelloWorld(times = int(input("How many times would you like to display the message?: ")))
+HelloWorld(times = times)
 
 ```
 
-## Challenge 1
+### Challenge
 
 Remember our homework challenge, where we run through a list and then separate it's contents into separate lists?
 
