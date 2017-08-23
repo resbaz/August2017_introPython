@@ -70,9 +70,7 @@ print("even list is:", even)
 
 ## Question 2
 
-Write a Python script that iterates/loops over a list of words, and counts how many times each of those words occurs. Then, output the word that occurs the most amount of times.
-
-
+Write a Python script that iterates/loops over a list of words, and counts how many times each of those words occurs. Then, output the word that occurs the most amount of times, and how many times it appeared.
 
 Hint: a dict() might come in handy for this...
 
@@ -101,6 +99,7 @@ for word in wordList:
 max = 0
 maxWord = None
 
-for key,value in wordCount:
+for key,value in wordCount.items():
     
 ```
+
